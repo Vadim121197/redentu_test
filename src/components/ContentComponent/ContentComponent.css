@@ -1,0 +1,8 @@
+.wrapper {
+    margin: 0 auto;
+    width: 800px;
+    height: 80vh;
+    border-style: solid;
+    border-color: black;
+    font-size: 40px;
+}
