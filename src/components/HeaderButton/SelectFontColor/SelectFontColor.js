@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
 import { changeFont } from '../../../helpers/helpers'
@@ -10,10 +10,8 @@ const SelectFontColor = () => {
     const fontColor = useSelector(getFontColor)
 
     const dispatch = useDispatch()
-
-    useEffect(() => {
-        changeFont('foreColor', fontColor)
-    }, [fontColor])
+    
+    const onClickChange = () => changeFont('foreColor', fontColor)
 
     const onChange = e => {
         dispatch(changeFontColor(e.target.value))
@@ -29,6 +27,7 @@ const SelectFontColor = () => {
                     </option>
                 ))}
             </select>
+            <button onClick={onClickChange}>Change</button>
         </p>
     )
 }

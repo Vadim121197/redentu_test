@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { colors } from '../../../constants/constants'
 
@@ -11,9 +11,7 @@ const SelectFontBackground = () => {
 
     const dispatch = useDispatch()
 
-    useEffect(() => {
-        changeFont('backColor', fontBackground)
-    }, [fontBackground])
+    const onClickChange = () => changeFont('backColor', fontBackground)
 
     const onChange = e => {
         dispatch(changeFontBackground(e.target.value))
@@ -29,6 +27,7 @@ const SelectFontBackground = () => {
                     </option>
                 ))}
             </select>
+            <button onClick={onClickChange}>Change</button>
         </p>
     )
 }
