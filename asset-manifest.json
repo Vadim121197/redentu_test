@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/redentu_test/static/css/main.b6249c25.chunk.css",
+    "main.js": "/redentu_test/static/js/main.8450f49a.chunk.js",
+    "main.js.map": "/redentu_test/static/js/main.8450f49a.chunk.js.map",
+    "runtime-main.js": "/redentu_test/static/js/runtime-main.ff807b38.js",
+    "runtime-main.js.map": "/redentu_test/static/js/runtime-main.ff807b38.js.map",
+    "static/js/2.4a6b56a6.chunk.js": "/redentu_test/static/js/2.4a6b56a6.chunk.js",
+    "static/js/2.4a6b56a6.chunk.js.map": "/redentu_test/static/js/2.4a6b56a6.chunk.js.map",
+    "index.html": "/redentu_test/index.html",
+    "static/css/main.b6249c25.chunk.css.map": "/redentu_test/static/css/main.b6249c25.chunk.css.map",
+    "static/js/2.4a6b56a6.chunk.js.LICENSE.txt": "/redentu_test/static/js/2.4a6b56a6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff807b38.js",
+    "static/js/2.4a6b56a6.chunk.js",
+    "static/css/main.b6249c25.chunk.css",
+    "static/js/main.8450f49a.chunk.js"
+  ]
+}
